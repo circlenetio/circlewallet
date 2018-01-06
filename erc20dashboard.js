@@ -1,7 +1,7 @@
 
 	if (typeof erc20contract_address == "undefined") {
-		var erc20contract_address = "0x9671Bf5124Cb4Bd30027152FAFe8409eA46677E4";
-		var option_etherscan_api = 'https://ropsten.etherscan.io'; //change to https://api.etherscan.io for mainnet
+		var erc20contract_address = "0x62d0e8e8f3e72fe930cf7beb43a8601c0cb1bfc7";
+		var option_etherscan_api = 'https://api.etherscan.io'; //change to https://api.etherscan.io for mainnet
 		var option_registration_enabled = true;
 		var option_registration_backend = '';///'subscribe.php'; //you can use remote address like https://yoursite.com/subscribe.php
 		var option_recive_btc = ''; //reserved for future
@@ -32,7 +32,7 @@
 			alert("You have "+$("#skoko").val()+" tokens");
 		} else {
 			
-			if (tosell = prompt('How many NXP you want to sell?',$("#skoko").val())) {
+			if (tosell = prompt('How many CRC you want to sell?',$("#skoko").val())) {
 				sendRwTr(0,[tosell],"sell","#consolesell");
 			}
 		}
@@ -119,7 +119,7 @@
 					$("#ethqr").prop("src","https://chart.googleapis.com/chart?chs=100x100&cht=qr&chl="+openkey+"&choe=UTF-8&chld=L|0");
 						  
 					
-					$("#savethis").val("Warning! Withdraw all amounts of NXP to your own ethereum wallet! Save this information to your local device! \r\nopenkey:"+openkey+"\r\nprivkey:"+privkey);
+					$("#savethis").val("Warning! Withdraw all amounts of CRC to your own ethereum wallet! Save this information to your local device! \r\nopenkey:"+openkey+"\r\nprivkey:"+privkey);
 					
 			
 			
