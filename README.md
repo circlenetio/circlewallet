@@ -1,8 +1,6 @@
 # ERC20_widgets
 Minimal &amp; secure ERC20 dashboard/wallet. using lightwallet.js, ethereumjs &amp; etherscan as node provider
 
-<a href="https://noxonsu.github.io/">Demo</a> | <a href="http://noxonfund.com/dashboard.html" target="_blank">Full featured demo</a>
-
 Designed special for <a href="http://ethereum.org/token">ERC20 projects</a>. Just insert address of ERC20 smart contract and wallet ready to go. 
 
 # Secure
